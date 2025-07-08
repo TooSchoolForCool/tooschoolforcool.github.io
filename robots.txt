@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tooschoolforcool.github.io/sitemap.xml
