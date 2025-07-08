@@ -28,14 +28,7 @@ ninja.data = [{
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
