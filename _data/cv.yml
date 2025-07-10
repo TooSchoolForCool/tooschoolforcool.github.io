@@ -96,6 +96,14 @@
 #         - Description 1.
 #         - Description 2.
 
+- title: Professional Service
+  type: map
+  contents:
+    - name: Journal reviewer
+      value: Nature Machine Intelligence, IJCV, IEEE T-RO, IEEE RA-L
+    - name: Conference reviewer
+      value: ICRA, IROS, NeurIPS, ICML, AAAI, ICCV
+
 - title: Hobby
   type: list
   contents:
