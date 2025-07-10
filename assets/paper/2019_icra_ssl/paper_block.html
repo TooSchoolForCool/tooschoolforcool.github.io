@@ -1,0 +1,94 @@
+<li class="publication-item-container" style="position: relative">
+  <div class="publication-item ">
+    <div class="main">
+      <div class="row">
+        <div class="col-md-3" align="center">
+          <img
+            src="papers/2019-icra-ssl/ssl_icra19.gif"
+            class="thumbnail img-responsive"
+            style="max-height:200px;"
+          />
+        </div>
+        <div class="col-md-9">
+          <h4 class="pubtitle">
+            Self-Supervised Incremental Learning for Sound Source 
+            Localization in Complex Indoor Environment
+          </h4>
+          <div class="pubauthor">
+            <a href="https://liuhx111.github.io">Hangxin Liu*</a>,
+            <strong>Zeyu Zhang*</strong>,
+            <a href="http://yzhu.io">Yixin Zhu</a>,
+            <a href="http://www.stat.ucla.edu/~sczhu/"
+              >Song-Chun Zhu</a>.
+            <br />
+            * equal contributors
+          </div>
+          <br />
+          <div class="pubcite">
+            <i>IEEE International Conference on Robotics and Automation (ICRA), 2019</i>
+            <br />
+            <br />
+            <span class="label label-success">Conference Paper</span>
+            <span class="label label-primary">Robotics</span>
+            <span class="label label-primary">Sensoring</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="publication-assets">
+        <a
+          href="https://liuhx111.github.io/project_page/icra19_ssl.html"
+          class="tooltips" title="Project Page" target="_blank"
+        >
+          <i class="fa fa-expand"></i>
+        </a>
+        <a
+          href="papers/2019-icra-ssl/2019_icra_ssl.pdf"
+          title="Paper Download"
+          class="tooltips"
+          target="_blank"
+        >
+          <i class="fa fa-file-pdf-o"></i>
+        </a>
+        <a
+          href="https://youtu.be/RvBH3R1AZog"
+          title="Demo Video"
+          class="tooltips"
+          target="_blank"
+        >
+          <i class="fa fa-file-video-o"></i>
+        </a>
+        <a
+          href="https://github.com/TooSchoolForCool/EddieBot-ROS"
+          title="Source Code"
+          class="tooltips"
+          target="_blank"
+        >
+          <i class="fa fa-file-code-o"></i>
+        </a>
+      </div>
+  </div>
+
+  <div class="publication-abstract">
+    <h4 class="justify">Abstract</h4>
+    <p>
+      This paper presents an incremental learning framework for mobile robots
+      localizing the human sound source using a microphone array in a complex
+      indoor environment consisting of multiple rooms. In contrast to 
+      conventional approaches that leverage direction-of-arrival estimation,
+      the framework allows a robot to accumulate training data and improve 
+      the performance of the prediction model over time using an incremental
+      learning scheme. Specifically, we use implicit acoustic features obtained
+      from an auto-encoder together with the geometry features from the map 
+      for training. A self-supervision process is developed such that the 
+      model ranks the priority of rooms to explore and assigns the ground 
+      truth label to the collected data, updating the learned model on-the-fly.
+      The framework does not require pre-collected data and can be directly 
+      applied to real-world scenarios without any human supervisions or 
+      interventions. In experiments, we demonstrate that the prediction 
+      accuracy reaches 67% using about 20 training samples and eventually 
+      achieves 90% accuracy within 120 samples, surpassing prior 
+      classification-based methods with explicit GCC-PHAT features.
+    </p>
+  </div>
+</li>
