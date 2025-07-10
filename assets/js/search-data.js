@@ -21,7 +21,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/zeyuz_cv.pdf";
+            window.location.href = "/cv/";
           },
         },{id: "news-one-paper-has-been-accepted-by-icra-2019",
           title: 'One paper has been accepted by ICRA 2019.',
