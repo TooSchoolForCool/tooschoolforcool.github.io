@@ -3,19 +3,37 @@
 
 @string{ICRA = {IEEE International Conference on Robotics and Automation (ICRA)}}
 
+
 @inproceedings{liu2019self,
-  bibtex_show={true},
-  title={Self-supervised incremental learning for sound source localization in complex indoor environment},
+  title={Self-supervised Incremental Learning for Sound Source Localization in Complex Indoor Environment},
   author={Liu*, Hangxin and Zhang*, Zeyu and Zhu, Yixin and Zhu, Song-Chun},
   booktitle=ICRA,
   pages={2599--2605},
   year={2019},
   organization={IEEE},
-  preview={2019_icra_ssl/ssl_icra19.gif},
+  bibtex_show={true},
+  preview={2019-icra-ssl/thumbnail.gif},
   abbr={Teaming},
   annotation={* denotes joint first authors},
   abstract={This paper presents an incremental learning framework for mobile robots localizing the human sound source using a microphone array in a complex indoor environment consisting of multiple rooms. In contrast to conventional approaches that leverage direction-of-arrival estimation, the framework allows a robot to accumulate training data and improve the performance of the prediction model over time using an incremental learning scheme. Specifically, we use implicit acoustic features obtained from an auto-encoder together with the geometry features from the map for training. A self-supervision process is developed such that the model ranks the priority of rooms to explore and assigns the ground truth label to the collected data, updating the learned model on-the-fly. The framework does not require pre-collected data and can be directly applied to real-world scenarios without any human supervisions or interventions. In experiments, we demonstrate that the prediction accuracy reaches 67% using about 20 training samples and eventually achieves 90% accuracy within 120 samples, surpassing prior classification-based methods with explicit GCC-PHAT features.},
   code={https://github.com/TooSchoolForCool/EddieBot-ROS},
   video={https://vimeo.com/321150838},
-  pdf={2019_icra_ssl/2019_icra_ssl.pdf}
+  pdf={2019-icra-ssl/paper.pdf}
 }
+
+@inproceedings{zhang2020congestion,
+  title={Congestion-aware Evacuation Routing using Augmented Reality Devices},
+  author={Zhang, Zeyu and Liu, Hangxin and Jiao, Ziyuan and Zhu, Yixin and Zhu, Song-Chun},
+  booktitle=ICRA,
+  pages={2798--2804},
+  year={2020},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2020-icra-ar-evacuation/thumbnail.png},
+  abbr={Teaming, AR},
+  abstract={We present a congestion-aware routing solution for indoor evacuation, which produces real-time individual-customized evacuation routes among multiple destinations while keeping tracks of all evacuees' locations. A population density map, obtained on-the-fly by aggregating locations of evacuees from user-end AR devices, is used to model the congestion distribution inside a building. To efficiently search the evacuation route among all destinations, a variant of A* algorithm is devised to obtain the optimal solution in a single pass. In a series of simulated studies, we show that the proposed algorithm is more computationally optimized compared to classic path planning algorithms; it generates a more time-efficient evacuation route for each individual that minimizes the overall congestion. A complete system using AR devices is implemented for a pilot study in real-world environments, demonstrating the efficacy of the proposed approach.},
+  code={https://github.com/TooSchoolForCool/AR-Evacuation-ICRA},
+  video={https://vimeo.com/391765127},
+  pdf={2020-icra-ar-evacuation/paper.pdf}
+}
+
