@@ -1,0 +1,41 @@
+# last name must be lower cased
+"han":
+  - firstname: ["Muzhi"]
+    url: https://sites.google.com/view/muzhihan/home
+
+"jiang":
+  - firstname: ["Xin"]
+    url: https://jiangxjames.github.io/
+  - firstname: ["Chenfanfu"]
+    url: https://www.math.ucla.edu/~cffjiang/
+
+"liu":
+  - firstname: ["Hangxin"]
+    url: https://liuhx111.github.io
+
+"li":
+  - firstname: ["Minchen"]
+    url: https://www.cs.cmu.edu/~minchenl/
+
+"jiao":
+  - firstname: ["Ziyuan"]
+    url: https://sites.google.com/g.ucla.edu/zyjiao/home
+
+"qiu":
+  - firstname: ["Shuwen"]
+    url: https://janetalready.github.io/
+
+"xie":
+  - firstname: ["Xu"]
+    url: https://xuxie1031.github.io/
+
+"zhang":
+  - firstname: ["Zhenliang"]
+    url: https://www.zlz.link/
+
+"zhu":
+  - firstname: ["Yixin"]
+    url: https://yzhu.io
+
+  - firstname: ["Song-Chun"]
+    url: http://www.stat.ucla.edu/~sczhu/index.html

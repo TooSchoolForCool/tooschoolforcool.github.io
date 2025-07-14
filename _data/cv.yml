@@ -1,0 +1,110 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Zeyu Zhang
+    - name: Languages
+      value: Mandarin, English
+    - name: Affliation
+      value: Beijing Institute for General Artificial Intelligence (BIGAI)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D.
+      institution: University of California, Los Angeles
+      year: 2017 ~ 2022
+      description:
+        - Ph.D. in Computer Science
+        - "Advisor: Prof. Song-Chun Zhu"
+        - "GPA: 4.00/4.00"
+    - title: M.S.
+      institution: University of California, Los Angeles
+      year: 2017 ~ 2019
+      description:
+        - M.S. in Computer Science
+        - "Advisor: Prof. Song-Chun Zhu"
+        - "GPA: 4.00/4.00"
+    - title: Exchange Student
+      institution: Arizona State University
+      year: 2015 ~ 2016
+      description:
+        - "GPA: 4.00/4.00"
+    - title: B.S.
+      institution: Hunan University
+      year: 2013 ~ 2017
+      description:
+        - B.S. in Computer Science
+        - "GPA: : 4.29/4.50 | Rank 1/107"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: Beijing Institute for General Artificial Intelligence
+      year: 2023.04 ~ present
+      description:
+        - Developed perception models for robot manipulation in unstructured environments.
+        - Built learning systems for dexterous robot manipulation skills.
+        - Led a team in building a simulation platform for humanoid robot locomotion and manipulation with high-fidelity dynamics in large-scale environment.
+    - title: Graduate Student Researcher
+      institution: Center for Vision, Cognition, Learning and Autonomy, UCLA
+      year: 2018.06 ~ 2021.05
+      description:
+        - "ONR N00014-19-1-2153: Scene Understanding for Robot Autonomy"
+        - "DURIP N00014-20-1-2812: A Cognitive Robot Platform for Scene Understanding and Expeditionary Maneuver"
+        - "ONR MURI N00014-16-1-2007: Understanding Scenes and Events through Joint Parsing, Cognitive Reasoning and Lifelong Learning"
+        - "DARPA XAI N66001-17-2-4029: Learning and Communicating Explainable Representations for Analytics and Autonomy"
+    - title: Robotic Research Intern
+      institution: DMAI, Inc., Los Angeles, CA
+      year: 2018.09 ~ 2020.03
+      description:
+        - Developed a tabletop companion robot system that reads, understands, and answers questions about books through natural user interaction.
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2015 ~ 2016
+      items:
+        - Two Dean's List Certificates, Arizona State University
+    - year: 2015
+      items:
+        - Chinese Government Scholarship, Chinese Scholarship Council
+    - year: 2015
+      items:
+        - National Scholarship, the Ministry of Education of the P.R.China
+    - year: 2014
+      items:
+        - National Scholarship, the Ministry of Education of the P.R.China
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Professional Service
+  type: map
+  contents:
+    - name: Journal reviewer
+      value: Nature Machine Intelligence, IJCV, IEEE T-RO, IEEE RA-L
+    - name: Conference reviewer
+      value: ICRA, IROS, NeurIPS, ICML, AAAI, ICCV
+
+- title: Hobby
+  type: list
+  contents:
+    - Reading, Sketch, Penmanship

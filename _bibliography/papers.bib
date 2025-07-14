@@ -1,0 +1,258 @@
+---
+---
+
+@string{ICRA = {IEEE International Conference on Robotics and Automation (ICRA)}}
+@string{IROS = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}}
+@string{RAL = {IEEE Robotics and Automation Letters (RA-L)}}
+@string{IJCV = {International Journal of Computer Vision (IJCV)}}
+@string{ENGR = {Engineering}}
+
+@inproceedings{liu2019self,
+  title={Self-supervised Incremental Learning for Sound Source Localization in Complex Indoor Environment},
+  author={Liu*, Hangxin and Zhang*, Zeyu and Zhu, Yixin and Zhu, Song-Chun},
+  booktitle=ICRA,
+  pages={2599--2605},
+  year={2019},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2019-icra-ssl/thumbnail.gif},
+  abbr={ICRA},
+  tags={Teaming},
+  annotation={* denotes joint first authors},
+  abstract={This paper presents an incremental learning framework for mobile robots localizing the human sound source using a microphone array in a complex indoor environment consisting of multiple rooms. In contrast to conventional approaches that leverage direction-of-arrival estimation, the framework allows a robot to accumulate training data and improve the performance of the prediction model over time using an incremental learning scheme. Specifically, we use implicit acoustic features obtained from an auto-encoder together with the geometry features from the map for training. A self-supervision process is developed such that the model ranks the priority of rooms to explore and assigns the ground truth label to the collected data, updating the learned model on-the-fly. The framework does not require pre-collected data and can be directly applied to real-world scenarios without any human supervisions or interventions. In experiments, we demonstrate that the prediction accuracy reaches 67% using about 20 training samples and eventually achieves 90% accuracy within 120 samples, surpassing prior classification-based methods with explicit GCC-PHAT features.},
+  code={https://github.com/TooSchoolForCool/EddieBot-ROS},
+  video={https://vimeo.com/321150838},
+  pdf={2019-icra-ssl/paper.pdf}
+}
+
+@inproceedings{zhang2020congestion,
+  title={Congestion-aware Evacuation Routing using Augmented Reality Devices},
+  author={Zhang, Zeyu and Liu, Hangxin and Jiao, Ziyuan and Zhu, Yixin and Zhu, Song-Chun},
+  booktitle=ICRA,
+  pages={2798--2804},
+  year={2020},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2020-icra-ar-evacuation/thumbnail.png},
+  abbr={ICRA},
+  tags={Teaming, AR},
+  abstract={We present a congestion-aware routing solution for indoor evacuation, which produces real-time individual-customized evacuation routes among multiple destinations while keeping tracks of all evacuees' locations. A population density map, obtained on-the-fly by aggregating locations of evacuees from user-end AR devices, is used to model the congestion distribution inside a building. To efficiently search the evacuation route among all destinations, a variant of A* algorithm is devised to obtain the optimal solution in a single pass. In a series of simulated studies, we show that the proposed algorithm is more computationally optimized compared to classic path planning algorithms; it generates a more time-efficient evacuation route for each individual that minimizes the overall congestion. A complete system using AR devices is implemented for a pilot study in real-world environments, demonstrating the efficacy of the proposed approach.},
+  code={https://github.com/TooSchoolForCool/AR-Evacuation-ICRA},
+  video={https://vimeo.com/391765127},
+  pdf={2020-icra-ar-evacuation/paper.pdf}
+}
+
+@inproceedings{qiu2020human,
+  title={Human-robot Interaction in a Shared Augmented Reality Workspace},
+  author={Qiu*, Shuwen and Liu*, Hangxin and Zhang, Zeyu and Zhu, Yixin and Zhu, Song-Chun},
+  booktitle=IROS,
+  pages={11413--11418},
+  year={2020},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2020-icra-ar-workspace/thumbnail.png},
+  abbr={IROS},
+  tags={Teaming, AR},
+  annotation={* denotes joint first authors},
+  abstract={We design and develop a new shared Augmented Reality (AR) workspace for Human-Robot Interaction (HRI), which establishes a bi-directional communication between human agents and robots. In a prototype system, the shared AR workspace enables a shared perception, so that a physical robot not only perceives the virtual elements in its own view but also infers the utility of the human agent—the cost needed to perceive and interact in AR—by sensing the human agent's gaze and pose. Such a new HRI design also affords a shared manipulation, wherein the physical robot can control and alter virtual objects in AR as an active agent; crucially, a robot can proactively interact with human agents, instead of purely passively executing received commands. In experiments, we design a resource collection game that qualitatively demonstrates how a robot perceives, processes, and manipulates in AR and quantitatively evaluates the efficacy of HRI using the shared AR workspace. We further discuss how the system can potentially benefit future HRI studies that are otherwise challenging.},
+  code={https://github.com/Janetalready/Shared-AR-workspace},
+  video={https://vimeo.com/439150333},
+  pdf={2020-icra-ar-workspace/paper.pdf},
+  website={https://sites.google.com/view/shared-ar-workspace/}
+}
+
+
+@inproceedings{han2021reconstructing,
+  title={Reconstructing Interactive 3D Scenes by Panoptic Mapping and CAD Model Alignments},
+  author={Han*, Muzhi and Zhang*, Zeyu and Jiao, Ziyuan and Xie, Xu and Zhu, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  booktitle=ICRA,
+  pages={12199--12206},
+  year={2021},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2021-icra-scene-recon/thumbnail.jpg},
+  abbr={ICRA},
+  tags={Scene Reconstruction, Functionality, Digital Twin},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abstract={In this paper, we rethink the problem of scene reconstruction from an embodied agent's perspective: While the classic view focuses on the reconstruction accuracy, our new perspective emphasizes the underlying functions and constraints such that the reconstructed scenes provide actionable information for simulating interactions with agents. Here, we address this challenging problem by reconstructing an interactive scene using RGB-D data stream, which captures (i) the semantics and geometry of objects and layouts by a 3D volumetric panoptic mapping module, and (ii) object affordance and contextual relations by reasoning over physical common sense among objects, organized by a graph-based scene representation. Crucially, this reconstructed scene replaces the object meshes in the dense panoptic map with part-based articulated CAD models for finer-grained robot interactions. In the experiments, we demonstrate that (i) our panoptic mapping module outperforms previous state-of-the-art methods, (ii) a high-performant physical reasoning procedure that matches, aligns, and replaces objects' meshes with best-fitted CAD models, and (iii) reconstructed scenes are physically plausible and naturally afford actionable interactions; without any manual labeling, they are seamlessly imported to ROS-based simulators and virtual environments for complex robot task executions.},
+  code={https://github.com/hmz-15/Interactive-Scene-Reconstruction},
+  video={https://vimeo.com/530222887},
+  pdf={2021-icra-scene-recon/paper.pdf},
+  website={https://sites.google.com/view/icra2021-reconstruction/}
+}
+
+
+@inproceedings{jiao2021consolidating,
+  title={Consolidating Kinematic Models to Promote Coordinated Mobile Manipulations},
+  author={Jiao*, Ziyuan and Zhang*, Zeyu and Jiang, Xin and Han, David and Zhu, Song-Chun and Zhu, Yixin and Liu†, Hangxin},
+  booktitle=IROS,
+  pages={979--985},
+  year={2021},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2021-iros-vkc-motion/thumbnail.png},
+  abbr={IROS},
+  tags={Manipulation, TAMP},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abstract={We construct a Virtual Kinematic Chain (VKC) that readily consolidates the kinematics of the mobile base, the arm, and the object to be manipulated in mobile manipulations. Accordingly, a mobile manipulation task is represented by altering the state of the constructed VKC, which can be converted to a motion planning problem, formulated, and solved by trajectory optimization. This new VKC perspective of mobile manipulation allows a service robot to (i) produce well-coordinated motions, suitable for complex household environments, and (ii) perform intricate multi-step tasks while interacting with multiple objects without an explicit definition of intermediate goals. In simulated experiments, we validate these advantages by comparing the VKC-based approach with baselines that solely optimize individual components. The results manifest that VKC-based joint modeling and planning promote task success rates and produce more efficient trajectories.},
+  code={https://github.com/zyjiao4728/VKC-Demo},
+  video={https://vimeo.com/581565256},
+  pdf={2021-iros-vkc-motion/paper.pdf},
+  website={https://sites.google.com/view/iros2021-vkc/home/vkc-motion}
+}
+
+@inproceedings{jiao2021efficient,
+  title={Efficient Task Planning for Mobile Manipulation: a Virtual Kinematic Chain Perspective},
+  author={Jiao*, Ziyuan and Zhang*, Zeyu and Wang, Weiqi and Han, David and Zhu, Song-Chun and Zhu, Yixin and Liu, Hangxin†},
+  booktitle=IROS,
+  pages={8288--8294},
+  year={2021},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2021-iros-vkc-task/thumbnail.jpg},
+  abbr={IROS},
+  tags={Manipulation, TAMP},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abstract={We present a Virtual Kinematic Chain (VKC) perspective, a simple yet effective method, to improve task planning efficacy for mobile manipulation. By consolidating the kinematics of the mobile base, the arm, and the object to be manipulated collectively as a whole, our novel VKC perspective naturally defines abstract actions and eliminates unnecessary predicates in describing intermediate poses. As a result, these advantages simplify the design of the planning domain and significantly reduce the search space and branching factors in solving planning problems. In experiments, we implement a task planner using Planning Domain Definition Language (PDDL) with VKC. Compared with classic domain definition, our VKC-based domain definition is more efficient in both planning time and memory required. In addition, the abstract actions perform better in producing feasible motion plans and trajectories. We further scale up the VKC-based task planner in complex mobile manipulation tasks. Taken together, these results demonstrate that task planning using VKC for mobile manipulation is not only natural and effective but also introduces new capabilities.},
+  code={https://github.com/TooSchoolForCool/IROS21-VKC-Task-PDDL},
+  video={https://vimeo.com/581563536},
+  pdf={2021-iros-vkc-task/paper.pdf},
+  website={/papers/iros-vkc-task}
+}
+
+@inproceedings{jiao2022sequential,
+  title={Sequential Manipulation Planning on Scene Graph},
+  author={Jiao, Ziyuan and Niu, Yida and Zhang, Zeyu and Zhu, Song-Chun and Zhu, Yixin and Liu, Hangxin},
+  booktitle=IROS,
+  pages={8203--8210},
+  year={2022},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2022-iros-ged/thumbnail.png},
+  abbr={IROS},
+  tags={Manipulation, TAMP},
+  abstract={We devise a 3D scene graph representation, contact graph+ (cg+), for efficient sequential task planning. Augmented with predicate-like attributes, this contact graph-based representation abstracts scene layouts with succinct geometric information and valid robot-scene interactions. Goal configurations, naturally specified on contact graphs, can be produced by a genetic algorithm with a stochastic optimization method. A task plan is then initialized by computing the Graph Editing Distance (GED) between the initial contact graphs and the goal configurations, which generates graph edit operations corresponding to possible robot actions. We finalize the task plan by imposing constraints to regulate the temporal feasibility of graph edit operations, ensuring valid task and motion correspondences. In a series of simulations and experiments, robots successfully complete complex sequential object rearrangement tasks that are difficult to specify using conventional planning language like Planning Domain Definition Language (PDDL), demonstrating the high feasibility and potential of robot sequential task planning on contact graph.},
+  code={https://github.com/zyjiao4728/POG-Demo},
+  video={https://vimeo.com/728421779},
+  pdf={2022-iros-ged/paper.pdf},
+  website={https://sites.google.com/view/planning-on-graph}
+}
+
+@article{zhang2022understanding,
+  title={Understanding Physical Effects for Effective Tool-use},
+  author={Zhang*, Zeyu and Jiao*, Ziyuan and Wang, Weiqi and Zhu, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  journal=RAL,
+  volume={7},
+  number={4},
+  pages={9469--9476},
+  year={2022},
+  publisher={IEEE},
+  bibtex_show={true},
+  preview={2022-ral-tooluse/thumbnail.png},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={RA-L},
+  tags={Tool, Manipulation, Functionality, Affordance, HOI},
+  abstract={We present a robot learning and planning framework that produces an effective tool-use strategy with the least joint efforts, capable of handling objects different from training. Leveraging a Finite Element Method (FEM)-based simulator that reproduces fine-grained, continuous visual and physical effects given observed tool-use events, the essential physical properties contributing to the effects are identified through the proposed Iterative Deepening Symbolic Regression (IDSR) algorithm. We further devise an optimal control-based motion planning scheme to integrate robot- and tool-specific kinematics and dynamics to produce an effective trajectory that enacts the learned properties. In simulation, we demonstrate that the proposed framework can produce more effective tool-use strategies, drastically different from the observed ones in two exemplar tasks.},
+  video={https://vimeo.com/725191188},
+  pdf={2022-ral-tooluse/paper.pdf},
+  website={/papers/ral-tooluse}
+}
+
+@article{han2022scene,
+  title={Scene Reconstruction with Functional Objects for Robot Autonomy},
+  author={Han*, Muzhi and Zhang*, Zeyu and Jiao, Ziyuan and Xie, Xu and Zhu†, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  journal=IJCV,
+  volume={130},
+  number={12},
+  pages={2940--2961},
+  year={2022},
+  publisher={Springer},
+  bibtex_show={true},
+  preview={2022-ijcv-scene/thumbnail.gif},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={IJCV},
+  tags={Scene Reconstruction, Functionality, Digital Twin},
+  abstract={We present a robot learning and planning framework that produces an effective tool-use strategy with the least joint efforts, capable of handling objects different from training. Leveraging a Finite Element Method (FEM)-based simulator that reproduces fine-grained, continuous visual and physical effects given observed tool-use events, the essential physical properties contributing to the effects are identified through the proposed Iterative Deepening Symbolic Regression (IDSR) algorithm. We further devise an optimal control-based motion planning scheme to integrate robot- and tool-specific kinematics and dynamics to produce an effective trajectory that enacts the learned properties. In simulation, we demonstrate that the proposed framework can produce more effective tool-use strategies, drastically different from the observed ones in two exemplar tasks.},
+  video={https://drive.google.com/file/d/1yYeIXvpWshZPjwDuouOPeQ4Xr6TX7-C2/view},
+  code={https://github.com/hmz-15/Interactive-Scene-Reconstruction},
+  pdf={2022-ijcv-scene/paper.pdf},
+  website={https://sites.google.com/view/ijcv2022-reconstruction}
+}
+
+@article{liu2024reconfigurable,
+  title={A Reconfigurable Data Glove for Reconstructing Physical and Virtual Grasps},
+  author={Liu*†, Hangxin and Zhang*, Zeyu and Jiao*, Ziyuan and Zhang, Zhenliang and Li, Minchen and Jiang, Chenfanfu and Zhu†, Yixin and Zhu, Song-Chun},
+  journal=ENGR,
+  volume={32},
+  pages={202--216},
+  year={2024},
+  publisher={Elsevier},
+  bibtex_show={true},
+  preview={2024-engr-glove/thumbnail.gif},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={Engineering},
+  tags={Manipulation, Tool, Tactile},
+  abstract={In this work, we present a reconfigurable data glove design to capture different modes of human hand-object interactions, which are critical in training embodied artificial intelligence (AI) agents for fine manipulation tasks. To achieve various downstream tasks with distinct features, our reconfigurable data glove operates in three modes sharing a unified backbone design that reconstructs hand gestures in real time. In the tactile-sensing mode, the glove system aggregates manipulation force via customized force sensors made from a soft and thin piezoresistive material; this design minimizes interference during complex hand movements. The virtual reality (VR) mode enables real-time interaction in a physically plausible fashion: A caging-based approach is devised to determine stable grasps by detecting collision events. Leveraging a state-of-the-art finite element method (FEM), the simulation mode collects data on fine-grained 4D manipulation events comprising hand and object motions in 3D space and how the object's physical properties (e.g., stress and energy) change in accordance with manipulation over time. Notably, the glove system presented here is the first to use high-fidelity simulation to investigate the unobservable physical and causal factors behind manipulation actions. In a series of experiments, we characterize our data glove in terms of individual sensors and the overall system. More specifically, we evaluate the system's three modes by (i) recording hand gestures and associated forces, (ii) improving manipulation fluency in VR, and (iii) producing realistic simulation effects of various tool uses, respectively. Based on these three modes, our reconfigurable data glove collects and reconstructs fine-grained human grasp data in both physical and virtual environments, thereby opening up new avenues for the learning of manipulation skills for embodied AI agents.},
+  video={https://vimeo.com/686146591},
+  pdf={2024-engr-glove/paper.pdf},
+  website={https://sites.google.com/view/engr-glove}
+}
+
+@inproceedings{zhang2023part,
+  title={Part-level Scene Reconstruction Affords Robot Interaction},
+  author={Zhang*, Zeyu and Zhang*, Lexing and Wang, Zaijin and Jiao, Ziyuan and Han, Muzhi and Zhu, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  booktitle=IROS,
+  pages={11178--11185},
+  year={2023},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2023-iros-part-scene/thumbnail.png},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={IROS},
+  tags={Scene Reconstruction, Affordance, Digital Twin},
+  abstract={Existing methods for reconstructing interactive scenes primarily focus on replacing reconstructed objects with CAD models retrieved from a limited database, resulting in significant discrepancies between the reconstructed and observed scenes. To address this issue, our work introduces a part-level reconstruction approach that reassembles objects using primitive shapes. This enables us to precisely replicate the observed physical scenes and simulate robot interactions with both rigid and articulated objects. By segmenting reconstructed objects into semantic parts and aligning primitive shapes to these parts, we assemble them as CAD models while estimating kinematic relations, including parent-child contact relations, joint types, and parameters. Specifically, we derive the optimal primitive alignment by solving a series of optimization problems, and estimate kinematic relations based on part semantics and geometry. Our experiments demonstrate that part-level scene reconstruction outperforms object-level reconstruction by accurately capturing finer details and improving precision. These reconstructed part-level interactive scenes provide valuable kinematic information for various robotic applications; we showcase the feasibility of certifying mobile manipulation planning in these interactive scenes before executing tasks in the physical world.},
+  video={https://vimeo.com/849400128},
+  pdf={2023-iros-part-scene/paper.pdf},
+  website={/papers/iros-part-scene}
+}
+
+@inproceedings{zhang2023learning,
+  title={Learning a Causal Transition Model for Object Cutting},
+  author={Zhang*, Zeyu and Han*, Muzhi and Jia, Baoxiong and Jiao, Ziyuan and Zhu, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  booktitle=IROS,
+  pages={1996--2003},
+  year={2023},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2023-iros-object-cutting/thumbnail.jpg},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={IROS},
+  tags={Manipulation, TAMP, Skill Learning},
+  abstract={Cutting objects into desired fragments is challenging for robots due to the spatially unstructured nature of fragments and the complex one-to-many object fragmentation caused by actions. We present a novel approach to model object fragmentation using an attributed stochastic grammar. This grammar abstracts fragment states as node variables and captures causal transitions in object fragmentation through production rules. We devise a probabilistic framework to learn this grammar from human demonstrations. The planning process for object cutting involves inferring an optimal parse tree of desired fragments using the learned grammar, with parse tree productions corresponding to cutting actions. We employ Monte Carlo Tree Search (MCTS) to efficiently approximate the optimal parse tree and generate a sequence of executable cutting actions. The experiments demonstrate the efficacy in planning for object-cutting tasks, both in simulation and on a physical robot. The proposed approach outperforms several baselines by demonstrating superior generalization to novel setups, thanks to the compositionality of the grammar model.},
+  video={https://vimeo.com/851269542},
+  pdf={2023-iros-object-cutting/paper.pdf},
+  website={/papers/iros-object-cutting}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  title={Scene reconstruction with functional objects for robot autonomy},
+  author={Han*, Muzhi and Zhang*, Zeyu and Jiao, Ziyuan and Xie, Xu and Zhu†, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  journal=IJCV,
+  volume={130},
+  number={12},
+  pages={2940--2961},
+  year={2022},
+  publisher={Springer},
+  bibtex_show={true},
+  preview={},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={},
+  abstract={},
+  video={},
+  code={},
+  pdf={},
+  website={},
+  html={}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 

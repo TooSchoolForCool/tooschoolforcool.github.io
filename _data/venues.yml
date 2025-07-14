@@ -1,0 +1,24 @@
+"Engineering":
+  url: https://www.sciencedirect.com/journal/engineering
+  color: "#00369f"
+
+"IROS":
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros
+  color: "#ff5733"
+
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  color: "#28a745"
+
+"RA-L":
+  url: https://www.ieee-ras.org/publications/ra-l
+  color: "#6610f2"
+
+"IJCV":
+  url: https://link.springer.com/journal/11263
+  color: "#ffc107"
+#e83e8c (Pink)
+#20c997 (Teal)
+#fd7e14 (Orange-Red)
+#17a2b8 (Cyan)
+#dc3545 (Bright Red)
