@@ -346,9 +346,9 @@ external_links:
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
-    - 480
     - 800
-    - 1400
+    - 1600
+    - 3600
   input_directories:
     - assets/img/
     - papers/
@@ -359,7 +359,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "-quality 95"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
