@@ -1,4 +1,8 @@
 # last name must be lower cased
+"dai":
+  - firstname: ["Bo"]
+    url: https://daibopku.github.io/daibo/
+
 "han":
   - firstname: ["Muzhi"]
     url: https://sites.google.com/view/muzhihan/home
@@ -17,6 +21,10 @@
   - firstname: ["Minchen"]
     url: https://www.cs.cmu.edu/~minchenl/
 
+"jia":
+  - firstname: ["Baoxiong"]
+    url: https://buzz-beater.github.io/
+
 "jiao":
   - firstname: ["Ziyuan"]
     url: https://sites.google.com/g.ucla.edu/zyjiao/home
@@ -32,6 +40,9 @@
 "zhang":
   - firstname: ["Zhenliang"]
     url: https://www.zlz.link/
+
+  - firstname: ["Chi"]
+    url: https://wellyzhang.github.io/
 
 "zhu":
   - firstname: ["Yixin"]

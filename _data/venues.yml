@@ -17,7 +17,10 @@
 "IJCV":
   url: https://link.springer.com/journal/11263
   color: "#ffc107"
-#e83e8c (Pink)
+
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#e83e8c"
 #20c997 (Teal)
 #fd7e14 (Orange-Red)
 #17a2b8 (Cyan)
