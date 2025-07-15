@@ -18,7 +18,7 @@ Zeyu Zhang*, Muzhi Han*, Baoxiong Jia, Ziyuan Jiao, Yixin Zhu, Song-Chun Zhu, Ha
 
 <div class="row mt-3">
     <div class="col-md-10 col-lg-8 mx-auto">
-        {% include figure.liquid path="papers/2023-iros-object-cutting/thumbnail.jpg" class="rounded z-depth-1" %}
+        {% include figure.liquid path="papers/2023-iros-object-cutting/thumbnail.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -33,7 +33,7 @@ Cutting objects into desired fragments is challenging for robots due to the spat
 
 <div class="row mt-3">
     <div class="col-sm">
-        {% include figure.liquid path="papers/2023-iros-object-cutting/teaser.jpg" class="rounded z-depth-1" %}
+        {% include figure.liquid path="papers/2023-iros-object-cutting/teaser.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
