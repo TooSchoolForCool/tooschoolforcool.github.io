@@ -17,7 +17,7 @@ Zeyu Zhang*, Lexing Zhang*, Zaijin Wang, Ziyuan Jiao, Muzhi Han,<br/> Yixin Zhu,
 
 <div class="row mt-3">
     <div class="col-sm">
-        {% include figure.liquid path="papers/2023-iros-part-scene/teaser.jpg" class="rounded z-depth-1" %}
+        {% include figure.liquid path="papers/2023-iros-part-scene/teaser.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
