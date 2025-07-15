@@ -7,6 +7,8 @@
 @string{IJCV = {International Journal of Computer Vision (IJCV)}}
 @string{ENGR = {Engineering}}
 @string{ICCV = {In Proceedings of the International Conference on Computer Vision (ICCV)}}
+@string{VR = {IEEE Conference Virtual Reality and 3D User Interfaces (VR)}}
+@string{JFR = {Journal of Field Robotics}}
 
 @inproceedings{liu2019self,
   title={Self-supervised Incremental Learning for Sound Source Localization in Complex Indoor Environment},
@@ -245,12 +247,66 @@
   preview={2023-iccv-voe/thumbnail.png},
   annotation={† denotes corresponding author},
   abbr={ICCV},
+  tags={Physics, CogSci},
   abstract={Intuitive physics is pivotal for human understanding of the physical world, enabling prediction and interpretation of events even in infancy. Nonetheless, replicating this level of intuitive physics in artificial intelligence (AI) remains a formidable challenge. This study introduces X-VoE, a comprehensive benchmark dataset, to assess AI agents' grasp of intuitive physics. Built on the developmental psychology-rooted Violation of Expectation (VoE) paradigm, X-VoE establishes a higher bar for the explanatory capacities of intuitive physics models. Each VoE scenario within X-VoE encompasses three distinct settings, probing models' comprehension of events and their underlying explanations. Beyond model evaluation, we present an explanation-based learning system that captures physics dynamics and infers occluded object states solely from visual sequences, without explicit occlusion labels. Experimental outcomes highlight our model's alignment with human commonsense when tested against X-VoE. A remarkable feature is our model's ability to visually expound VoE events by reconstructing concealed scenes. Concluding, we discuss the findings' implications and outline future research directions. Through X-VoE, we catalyze the advancement of AI endowed with human-like intuitive physics capabilities.},
   video={https://vimeo.com/855745233},
   code={https://github.com/daibopku/X-VoE},
   pdf={https://arxiv.org/pdf/2308.10441},
   website={https://sites.google.com/view/x-voe},
 }
+
+@inproceedings{zhang2024emergence,
+  title={On the Emergence of Symmetrical Reality},
+  author={Zhang, Zhenliang and Zhang, Zeyu and Jiao, Ziyuan and Su, Yao and Liu, Hangxin and Wang, Wei and Zhu, Song-Chun},
+  booktitle=VR,
+  pages={639--649},
+  year={2024},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2024-vr-sr/thumbnail.jpg},
+  abbr={VR},
+  tags={VR, AR, Teaming},
+  abstract={Artificial intelligence (AI) has revolutionized human cognitive abilities and facilitated the development of new AI entities capable of interacting with humans in both physical and virtual environments. Despite the existence of virtual reality, mixed reality, and augmented reality for several years, integrating these technical fields remains a formidable challenge due to their disparate application directions. The advent of AI agents, capable of autonomous perception and action, further compounds this issue by exposing the limitations of traditional human-centered research approaches. It is imperative to establish a comprehensive framework that accommodates the dual perceptual centers of humans and AI agents in both physical and virtual worlds. In this paper, we introduce the symmetrical reality framework, which offers a unified representation encompassing various forms of physical-virtual amalgamations. This framework enables researchers to better comprehend how AI agents can collaborate with humans and how distinct technical pathways of physical-virtual integration can be consolidated from a broader perspective. We then delve into the coexistence of humans and AI, demonstrating a prototype system that exemplifies the operation of symmetrical reality systems for specific tasks, such as pouring water. Subsequently, we propose an instance of an AI-driven active assistance service that illustrates the potential applications of symmetrical reality. This paper aims to offer beneficial perspectives and guidance for researchers and practitioners in different fields, thus contributing to the ongoing research about human-AI coexistence in both physical and virtual environments.},
+  video={https://youtu.be/cFj8GL70d7k},
+  pdf={https://arxiv.org/pdf/2401.15132.pdf},
+  website={https://sites.google.com/view/ieeevr2024sr}
+}
+
+@inproceedings{zhi2024closed,
+  title={Closed-loop Open-vocabulary Mobile Manipulation with GPT-4v},
+  author={Zhi*, Peiyuan and Zhang*, Zhiyuan and Zhao, Yu and Han, Muzhi and Zhang, Zeyu and Li, Zhitian and Jiao, Ziyuan and Jia†, Baoxiong and Huang†, Siyuan},
+  booktitle=ICRA,
+  year={2025},
+  organization={IEEE},
+  bibtex_show={true},
+  preview={2025-icra-comebot/thumbnail.jpg},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={ICRA},
+  tags={Manipulation, LLM},
+  abstract={Autonomous robot navigation and manipulation in open environments require reasoning and replanning with closed-loop feedback. In this work, we present COME-robot, the first closed-loop robotic system utilizing the GPT-4V vision-language foundation model for open-ended reasoning and adaptive planning in real-world scenarios. robot incorporates two key innovative modules: (i) a multi-level open-vocabulary perception and situated reasoning module that enables effective exploration of the 3D environment and target object identification using commonsense knowledge and situated information, and (ii) an iterative closed-loop feedback and restoration mechanism that verifies task feasibility, monitors execution success, and traces failure causes across different modules for robust failure recovery. Through comprehensive experiments involving 8 challenging real-world mobile and tabletop manipulation tasks, COME-robot demonstrates a significant improvement in task success rate (~35%) compared to state-of-the-art methods. We further conduct comprehensive analyses to elucidate how COME-robot's design facilitates failure recovery, free-form instruction following, and long-horizon task planning.},
+  video={https://come-robot.github.io/static/videos/icra_demov2.mp4},
+  pdf={https://arxiv.org/pdf/2404.10220},
+  website={https://come-robot.github.io/}
+}
+
+@article{liu2024pr2,
+  title={PR2: A Physics-and Photo-realistic Testbed for Embodied AI and Humanoid Robots},
+  author={Liu, Hangxin and Xie, Qi and Zhang, Zeyu and Yuan, Tao and Leng, Xiaokun and Sun, Lining and Zhu, Song-Chun and Zhang†, Jingwen and He†, Zhicheng and Su†, Yao},
+  journal=JFR,
+  doi = {https://doi.org/10.1002/rob.22588},
+  year={2025},
+  bibtex_show={true},
+  preview={2025-jfr-pr2/thumbnail.jpg},
+  annotation={† denotes corresponding author},
+  abbr={JFR},
+  tags={Manipulation, Humanoid, Loco-manipulation},
+  abstract={This paper presents the development of a Physics-realistic and Photo-realistic humanoid robot testbed, PR2, to facilitate collaborative research between Embodied Artificial Intelligence (Embodied AI) and robotics. PR2 offers high-quality scene rendering and robot dynamic simulation, enabling (i) the creation of diverse scenes using various digital assets, (ii) the integration of advanced perception or foundation models, and (iii) the implementation of planning and control algorithms for dynamic humanoid robot behaviors based on environmental feedback. The beta version of PR2 has been deployed for the simulation track of a nationwide full-size humanoid robot competition for college students, attracting 137 teams and over 400 participants within four months. This competition covered traditional tasks in bipedal walking, as well as novel challenges in loco-manipulation and language-instruction-based object search, marking a first for public college robotics competitions. A retrospective analysis of the competition suggests that future events should emphasize the integration of locomotion with manipulation and perception. By making the PR2 testbed publicly, we aim to further advance education and training in humanoid robotics.},
+  video={https://www.youtube.com/watch?v=O0xRILrc6nk},
+  code={https://github.com/pr2-humanoid/PR2-Platform},
+  pdf={https://arxiv.org/pdf/2409.01559},
+  website={https://pr2-humanoid.github.io/}
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Template

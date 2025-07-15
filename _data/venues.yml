@@ -21,6 +21,14 @@
 "ICCV":
   url: https://iccv.thecvf.com/
   color: "#e83e8c"
+
+"VR":
+  url: https://link.springer.com/journal/10055
+  color: "#e83e8c"
+
+"JFR":
+  url: https://onlinelibrary.wiley.com/journal/15564967
+  color: "#20c997"
 #20c997 (Teal)
 #fd7e14 (Orange-Red)
 #17a2b8 (Cyan)

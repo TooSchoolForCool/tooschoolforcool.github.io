@@ -33,6 +33,14 @@
   - firstname: ["Shuwen"]
     url: https://janetalready.github.io/
 
+"su":
+  - firstname: ["Yao"]
+    url: https://yaosu.info/
+
+"wang":
+  - firstname: ["Wei"]
+    url: https://cognn.com/
+
 "xie":
   - firstname: ["Xu"]
     url: https://xuxie1031.github.io/
@@ -43,6 +51,9 @@
 
   - firstname: ["Chi"]
     url: https://wellyzhang.github.io/
+
+  - firstname: ["Jingwen"]
+    url: https://jingwen-zhang-aaron.github.io/
 
 "zhu":
   - firstname: ["Yixin"]
