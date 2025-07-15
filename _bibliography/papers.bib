@@ -9,6 +9,49 @@
 @string{ICCV = {In Proceedings of the International Conference on Computer Vision (ICCV)}}
 @string{VR = {IEEE Conference Virtual Reality and 3D User Interfaces (VR)}}
 @string{JFR = {Journal of Field Robotics}}
+@string{TPAMI = {IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  title={Scene reconstruction with functional objects for robot autonomy},
+  author={Han*, Muzhi and Zhang*, Zeyu and Jiao, Ziyuan and Xie, Xu and Zhu†, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
+  journal=IJCV,
+  volume={130},
+  number={12},
+  pages={2940--2961},
+  year={2022},
+  publisher={Springer},
+  bibtex_show={true},
+  preview={},
+  annotation={* denotes joint first authors<br>† denotes corresponding author},
+  abbr={},
+  tags={},
+  abstract={},
+  video={},
+  code={},
+  pdf={},
+  website={},
+  html={}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+@article{yan2025m2diffuser,
+  title={M2Diffuser: Diffusion-based Trajectory Optimization for Mobile Manipulation in 3D Scenes},
+  author={Yan, Sixu and Zhang, Zeyu and Han, Muzhi and Wang, Zaijin and Xie, Qi and Li, Zhitian and Li, Zhehan and Liu†, Hangxin and Wang†, Xinggang and Zhu, Song-Chun},
+  journal=TPAMI,
+  year={2025},
+  publisher={IEEE},
+  bibtex_show={true},
+  preview={2025-tpami-m2diffuser/thumbnail.jpeg},
+  annotation={† denotes corresponding author},
+  abbr={T-PAMI},
+  tags={Manipulation, Mobile Manipulation, Trajectory Optimization},
+  abstract={Recent advances in diffusion models have opened new avenues for research into embodied AI agents and robotics. Despite significant achievements in complex robotic locomotion and skills, mobile manipulation-a capability that requires the coordination of navigation and manipulation-remains a challenge for generative AI techniques. This is primarily due to the high-dimensional action space, extended motion trajectories, and interactions with the surrounding environment. In this paper, we introduce M2Diffuser, a diffusion-based, scene-conditioned generative model that directly generates coordinated and efficient whole-body motion trajectories for mobile manipulation based on robot-centric 3D scans. M2Diffuser first learns trajectory-level distributions from mobile manipulation trajectories provided by an expert planner. Crucially, it incorporates an optimization module that can flexibly accommodate physical constraints and task objectives, modeled as cost and energy functions, during the inference process. This enables the reduction of physical violations and execution errors at each denoising step in a fully differentiable manner. Through benchmarking on three types of mobile manipulation tasks across over 20 scenes, we demonstrate that M2Diffuser outperforms state-of-the-art neural planners and successfully transfers the generated trajectories to a real-world robot. Our evaluations underscore the potential of generative AI to enhance the generalization of traditional planning and learning-based robotic methods, while also highlighting the critical role of enforcing physical constraints for safe and robust execution.},
+  video={https://youtu.be/T7kpDifRtfk},
+  code={https://github.com/m2diffuser/M2Diffuser},
+  pdf={https://arxiv.org/pdf/2410.11402},
+  website={https://m2diffuser.github.io/},
+}
 
 @inproceedings{liu2019self,
   title={Self-supervised Incremental Learning for Sound Source Localization in Complex Indoor Environment},
@@ -340,27 +383,3 @@
   code={https://github.com/AssassinWS/LLM-TAMP},
   website={https://github.com/AssassinWS/LLM-TAMP}
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Template
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-  title={Scene reconstruction with functional objects for robot autonomy},
-  author={Han*, Muzhi and Zhang*, Zeyu and Jiao, Ziyuan and Xie, Xu and Zhu†, Yixin and Zhu, Song-Chun and Liu†, Hangxin},
-  journal=IJCV,
-  volume={130},
-  number={12},
-  pages={2940--2961},
-  year={2022},
-  publisher={Springer},
-  bibtex_show={true},
-  preview={},
-  annotation={* denotes joint first authors<br>† denotes corresponding author},
-  abbr={},
-  tags={},
-  abstract={},
-  video={},
-  code={},
-  pdf={},
-  website={},
-  html={}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
