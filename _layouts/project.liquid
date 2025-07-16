@@ -23,9 +23,15 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
-      {% for bib_key in page.related_publications %}
-        {% bibliography -f papers -q @*[key={{bib_key}}]* %}
-      {% endfor %}
+      {% if page.preprint %}
+        {% for bib_key in page.related_publications %}
+          {% bibliography -f preprint.bib -q @*[key={{bib_key}}]* %}
+        {% endfor %}
+      {% else %}
+        {% for bib_key in page.related_publications %}
+          {% bibliography -f papers.bib -q @*[key={{bib_key}}]* %}
+        {% endfor %}
+      {% endif %}
     </div>
   {% endif %}
 </div>

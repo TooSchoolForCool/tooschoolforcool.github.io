@@ -18,7 +18,7 @@ Ziyuan Jiao*, Zeyu Zhang*, Weiqi Wang, David Han, Song-Chun Zhu, Yixin Zhu, Hang
 
 <div class="row mt-3">
     <div class="col-md-10 col-lg-8 mx-auto mt-3 mt-md-0">
-        {% include figure.liquid path="papers/2021-iros-vkc-task/thumbnail.jpg" class="rounded z-depth-1" %}
+        {% include figure.liquid path="papers/2021-iros-vkc-task/thumbnail.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

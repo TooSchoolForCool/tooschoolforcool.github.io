@@ -37,5 +37,9 @@
 "TCE":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=30
   color: "#20c997"
+
+"Pre-Print":
+  url: https://arxiv.org/
+  color: "#808080"
 #17a2b8 (Cyan)
 #dc3545 (Bright Red)
