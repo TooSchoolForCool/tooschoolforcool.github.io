@@ -18,6 +18,10 @@
   url: https://link.springer.com/journal/11263
   color: "#ffc107"
 
+"T-PAMI":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
+  color: "#fd7e14"
+
 "ICCV":
   url: https://iccv.thecvf.com/
   color: "#e83e8c"
@@ -30,8 +34,10 @@
   url: https://onlinelibrary.wiley.com/journal/15564967
   color: "#20c997"
 
-"T-PAMI":
-  url: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=34
-  color: "#fd7e14"
+"TCE": 
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=30
+  color: "#20c997"
+
+
 #17a2b8 (Cyan)
 #dc3545 (Bright Red)

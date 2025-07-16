@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "M3Bench: Benchmarking Whole-Body Motion Generation for<br/> Mobile Manipulation in 3D Scenes"
+title: "M3Bench: Benchmarking Whole-Body Motion Generation for Mobile Manipulation in 3D Scenes"
 related_publications: [zhang2025m3bench]
 permalink: /papers/m3bench
 ---
@@ -30,7 +30,7 @@ We propose M3Bench, a new benchmark for whole-body motion generation in mobile m
 
 ## Demo
 
-<iframe width="996" height="560" src="https://www.youtube.com/embed/TwJQnRm663M" title="M3Bench: Benchmarking Whole-body Motion Generation for Mobile Manipulation in 3D Scenes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/TwJQnRm663M" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="M3Bench: Benchmarking Whole-body Motion Generation for Mobile Manipulation in 3D Scenes"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><br/>
 
 ## BibTex
 
