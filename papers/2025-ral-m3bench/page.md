@@ -11,8 +11,14 @@ Zeyu Zhang*, Sixu Yan*, Muzhi Han, Zaijin Wang, Xinggang Wang, Song-Chun Zhu, Ha
 <p style="text-align: center;">
 *denotes joint first authors, †denotes corresponding author
 </p>
+<h5 style="text-align: center; color: #db4848;">
+IEEE Robotics and Automation Letters (RA-L), 2025
+</h5>
+
 <p style="text-align: center;">
-<a href="https://arxiv.org/pdf/2410.06678" target="_blank">[PDF]</a>
+<a href="https://arxiv.org/pdf/2410.06678" class="btn btn-secondary rounded-pill">PDF</a>
+<a href="https://github.com/TooSchoolForCool/M3Bench" class="btn btn-secondary rounded-pill">Code</a>
+<a href="https://huggingface.co/datasets/M3Bench/M3Bench" class="btn btn-secondary rounded-pill">Dataset</a>
 </p>
 
 <div class="row mt-3">

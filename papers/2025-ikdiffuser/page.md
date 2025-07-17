@@ -12,8 +12,9 @@ Zeyu Zhang, Ziyuan Jiao†
 <p style="text-align: center;">
 †denotes corresponding author
 </p>
+
 <p style="text-align: center;">
-<a href="https://www.arxiv.org/pdf/2506.13087" target="_blank">[PDF]</a>
+<a href="https://www.arxiv.org/pdf/2506.13087" class="btn btn-secondary rounded-pill">PDF</a>
 </p>
 
 <div class="row mt-3">
