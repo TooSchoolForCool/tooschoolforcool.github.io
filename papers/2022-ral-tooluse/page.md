@@ -12,7 +12,7 @@ Zeyu Zhang*, Ziyuan Jiao*, Weiqi Wang, Song-Chun Zhu, Yixin Zhu, Hangxin Liu†
 *denotes joint first authors, †denotes corresponding author
 </p>
 <p style="text-align: center;">
-<a href="2022-ral-tooluse/paper.pdf" target="_blank">[PDF]</a>
+<a href="/papers/2022-ral-tooluse/paper.pdf" target="_blank">[PDF]</a>
 </p>
 
 ## Abstract
