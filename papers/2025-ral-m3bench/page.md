@@ -2,7 +2,7 @@
 layout: project
 title: "M3Bench: Benchmarking Whole-Body Motion Generation for Mobile Manipulation in 3D Scenes"
 related_publications: [zhang2025m3bench]
-permalink: /papers/m3bench
+permalink: /papers/m3bench/
 ---
 
 <h5 style="text-align: center;">
