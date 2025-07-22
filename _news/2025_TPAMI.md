@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper have been accepted by TPAMI.
+One paper have been accepted by T-PAMI.
