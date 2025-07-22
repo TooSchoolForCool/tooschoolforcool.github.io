@@ -2,7 +2,7 @@
 layout: project
 title: "Efficient Task Planning for Mobile Manipulation:<br/> a Virtual Kinematic Chain Perspective"
 related_publications: [jiao2021efficient]
-permalink: /papers/iros-vkc-task
+permalink: /papers/iros-vkc-task/
 ---
 
 <h5 style="text-align: center;">

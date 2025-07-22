@@ -3,7 +3,7 @@ layout: project
 title: "IKDiffuser: A Generative Inverse Kinematics Solver for Multi-arm Robots via Diffusion Model"
 related_publications: [zhang2025ikdiffuser]
 preprint: true
-permalink: /papers/ikdiffuser
+permalink: /papers/ikdiffuser/
 ---
 
 <h5 style="text-align: center;">

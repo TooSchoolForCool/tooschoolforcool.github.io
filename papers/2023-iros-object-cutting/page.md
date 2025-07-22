@@ -2,7 +2,7 @@
 layout: project
 title: "Learning a Causal Transition Model for<br/> Object Cutting"
 related_publications: [zhang2023learning]
-permalink: /papers/iros-object-cutting
+permalink: /papers/iros-object-cutting/
 ---
 
 <h5 style="text-align: center;">

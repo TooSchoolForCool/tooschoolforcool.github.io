@@ -2,7 +2,7 @@
 layout: project
 title: "Part-level Scene Reconstruction Affords<br/> Robot Interaction"
 related_publications: [zhang2023part]
-permalink: /papers/iros-part-scene
+permalink: /papers/iros-part-scene/
 ---
 
 <h5 style="text-align: center;">

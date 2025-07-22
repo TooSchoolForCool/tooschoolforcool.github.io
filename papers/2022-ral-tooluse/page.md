@@ -2,7 +2,7 @@
 layout: project
 title: Understanding Physical Effects for<br/> Effective Tool-use
 related_publications: [zhang2022understanding]
-permalink: /papers/ral-tooluse
+permalink: /papers/ral-tooluse/
 ---
 
 <h5 style="text-align: center;">
