@@ -12,7 +12,7 @@ Ziyuan Jiao*, Zeyu Zhang*, Weiqi Wang, David Han, Song-Chun Zhu, Yixin Zhu, Hang
 *denotes joint first authors, †denotes corresponding author
 </p>
 <p style="text-align: center;">
-<a href="2021-iros-vkc-task/paper.pdf" target="_blank">[PDF]</a> | 
+<a href="/papers/2021-iros-vkc-task/paper.pdf" target="_blank">[PDF]</a> | 
 <a href="https://github.com/TooSchoolForCool/IROS21-VKC-Task-PDDL" target="_blank">[Code]</a>
 </p>
 

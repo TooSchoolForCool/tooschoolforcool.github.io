@@ -12,7 +12,7 @@ Zeyu Zhang*, Muzhi Han*, Baoxiong Jia, Ziyuan Jiao, Yixin Zhu, Song-Chun Zhu, Ha
 *denotes joint first authors, †denotes corresponding author
 </p>
 <p style="text-align: center;">
-<a href="2023-iros-object-cutting/paper.pdf" target="_blank">PDF</a> | 
+<a href="/papers/2023-iros-object-cutting/paper.pdf" target="_blank">PDF</a> | 
 <a href="#" target="_blank">Code (coming soon)</a>
 </p>
 

@@ -12,7 +12,7 @@ Zeyu Zhang*, Lexing Zhang*, Zaijin Wang, Ziyuan Jiao, Muzhi Han,<br/> Yixin Zhu,
 *denotes joint first authors, †denotes corresponding author
 </p>
 <p style="text-align: center;">
-<a href="2023-iros-part-scene/paper.pdf" target="_blank">[PDF]</a>
+<a href="/papers/2023-iros-part-scene/paper.pdf" target="_blank">[PDF]</a>
 </p>
 
 <div class="row mt-3">
