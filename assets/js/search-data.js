@@ -74,8 +74,11 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-have-been-accepted-by-ral",
           title: 'One paper have been accepted by RAL.',
           description: "",
-          section: "News",},{id: "news-one-paper-have-been-accepted-by-ieee-transactions-on-consumer-electronics-tce",
-          title: 'One paper have been accepted by IEEE Transactions on Consumer Electronics (TCE).',
+          section: "News",},{id: "news-one-paper-have-been-accepted-by-iros-2025",
+          title: 'One paper have been accepted by IROS 2025.',
+          description: "",
+          section: "News",},{id: "news-one-paper-have-been-accepted-by-ieee-transactions-on-consumer-electronics-t-ce",
+          title: 'One paper have been accepted by IEEE Transactions on Consumer Electronics (T-CE).',
           description: "",
           section: "News",},{
         id: 'social-email',
