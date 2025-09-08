@@ -22,6 +22,10 @@
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
   color: "#fd7e14"
 
+"T-RO":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860
+  color: "#17a2b8"
+
 "ICCV":
   url: https://iccv.thecvf.com/
   color: "#e83e8c"
